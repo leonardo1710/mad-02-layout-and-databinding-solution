@@ -1,6 +1,5 @@
 package com.example.mad_02_layout_and_databinding.utils
 
-import android.widget.RatingBar
 import android.widget.TextView
 import androidx.databinding.BindingAdapter
 
@@ -21,5 +20,4 @@ fun bindMapListToString(view: TextView, list: MutableList<String>?) {
             view.text = textString
         }
     }
-
 }
